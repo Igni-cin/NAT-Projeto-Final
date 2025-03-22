@@ -10,7 +10,7 @@ Este projeto tem como objetivo instruir a instalação e utilização da ferrame
 O Mull não está disponível nos gerenciadores de pacote padrão do Ubuntu. Então, para adicioná-lo, precisamos fazer:
 
 '''bash
-curl -1sLf 'https://dl.cloudsmith.io/public/mull-project/mull-stable/setup.deb.sh' | sudo -E bash
+'curl -1sLf 'https://dl.cloudsmith.io/public/mull-project/mull-stable/setup.deb.sh' | sudo -E bash'
 Em seguida, para instalar a versão estável mais recente do Mull:
 
 $ sudo apt-get update
