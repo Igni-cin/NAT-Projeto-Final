@@ -9,15 +9,18 @@ Este projeto tem como objetivo instruir a instalação e utilização da ferrame
 # Instalação
 configura o repositório apt para inserir o **Mull**:
 
+```bash
 "curl -1sLf 'https://dl.cloudsmith.io/public/mull-project/mull-stable/setup.deb.sh' | sudo -E bash"
 
 Instalar a versão recente do Mull:
 
+```bash
 $ sudo apt-get update
 $ sudo apt-get install mull-18
 
 Verificar se instalação e versão:
 
+```bash
 $ mull-runner-18 --version
 Mull: Practical mutation testing for C and C++
 Home: https://github.com/mull-project/mull
