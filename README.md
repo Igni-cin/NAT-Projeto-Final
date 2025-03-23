@@ -7,14 +7,16 @@ Este projeto tem como objetivo instruir a instalação e utilização da ferrame
 **Obs.: para o funcionamento perfeito desse tutorial é essencial a utilização do SOP Ubuntu 24.04.2 LTS e as versões clang-18(18.1.3), mesmo que as intruções do repositório sejam bem claras quanto a compatibilidade das versões 20.04/22.04 do Ubuntu e llvm/Clang do 12 ao 18, acontecem muitos problemas pra compatibilizar com o repositório atual.**
 
 # Instalação
-O Mull não está disponível nos gerenciadores de pacote padrão do Ubuntu. Então, para adicioná-lo, precisamos fazer:
+configura o repositório apt para inserir o **Mull**:
 
-'curl -1sLf 'https://dl.cloudsmith.io/public/mull-project/mull-stable/setup.deb.sh' | sudo -E bash'
-Em seguida, para instalar a versão estável mais recente do Mull:
+"curl -1sLf 'https://dl.cloudsmith.io/public/mull-project/mull-stable/setup.deb.sh' | sudo -E bash"
+
+Instalar a versão recente do Mull:
 
 $ sudo apt-get update
 $ sudo apt-get install mull-18
-Após isso, podemos verificar se a instalação foi bem-sucedida, fazendo:
+
+Verificar se instalação e versão:
 
 $ mull-runner-18 --version
 Mull: Practical mutation testing for C and C++
@@ -25,3 +27,5 @@ Version: 0.25.0
 Commit: 319e8b0
 Date: 01 Mar 2025
 LLVM: 18.1.3
+
+
