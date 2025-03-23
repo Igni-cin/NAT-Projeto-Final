@@ -168,3 +168,4 @@ Resultado do report
 [info] Mutation score: 100%
 [info] Total execution time: 25ms
 ```
+Para mais opções especificas de mutações basta conferir a biblioteca de [Supported Mutation Operators](https://mull.readthedocs.io/en/0.24.0/SupportedMutations.html).
