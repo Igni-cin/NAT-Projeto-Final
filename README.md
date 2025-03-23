@@ -4,7 +4,7 @@ Este projeto tem como objetivo instruir a instalação e utilização da ferrame
 # Requisitos para funcionamento
 - LLVM (versão compatível com Mull)
 - Clang
-**Obs.: para o funcionamento perfeito desse tutorial é essencial a utilização do SOP Ubuntu 24.04.2 LTS e as versões clang-18(18.1.3), mesmo que as intruções do repositório sejam bem claras quanto a compatibilidade das versões 20.04/22.04 do Ubuntu e llvm/Clang do 12 ao 18, acontecem muitos problemas pra compatibilizar com o repositório atual.**
+- **Obs.: para o funcionamento perfeito desse tutorial é essencial a utilização do SOP Ubuntu 24.04.2 LTS e as versões clang-18(18.1.3), mesmo que as intruções do repositório sejam bem claras quanto a compatibilidade das versões 20.04/22.04 do Ubuntu e llvm/Clang do 12 ao 18, acontecem muitos problemas pra compatibilizar com o repositório atual.**
 
 # Instalação
 configura o repositório apt para inserir o **Mull**:
