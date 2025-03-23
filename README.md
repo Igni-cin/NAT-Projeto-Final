@@ -42,7 +42,7 @@ Concluidos esse passos o **Mull** já está funcional
 Para testar as funcionalidades basta clonar esse repositório inserindo:
 
 ```bash
-"git clone https://github.com/Igni-cin/NAT-Projeto-Final.git"
+git clone https://github.com/Igni-cin/NAT-Projeto-Final.git
 ```
 Clonado o repositorio, entre na pasta:
 ```bash
@@ -140,7 +140,7 @@ igor@Administrator:~/mull_tests/triangle$ mull-runner-18 ./triangle
 ```
 Gerando report dos mutantes mortos
 ```bash
-igor@Administrator:~/mull_tests/triangle$ mull-runner-18 -ide-reporter-show-killed triangle
+mull-runner-18 -ide-reporter-show-killed triangle
 ```
 Resultado do report
 ```bash
