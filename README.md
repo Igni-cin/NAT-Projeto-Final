@@ -54,11 +54,11 @@ Primeiro teste
 ```bash
 cd calculator
 ```
-Compilação do binário da calculadora
+Compilação do binário da calculadora utilizando clang
 ```bash
-cd calculator
+clang calculator.c -o calculator
 ```
-Conferir presença de mutantes
+Testar mutantes
 ```bash
 mull-runner-18 ./calculator
 ```
@@ -74,7 +74,13 @@ Resultador esperado
 [info] No mutants found. Mutation score: infinitely high
 [info] Total execution time: 5ms
 ```
+Os mutantes ainda não foram inseridos nessa compilação, para inseri-los através do clang e posteriormente detectar usando o **Mull**é preciso realizar os seguintes passos:
 
+Compilação do binário implementando mutantes
+```bash
+clang -fpass-plugin=/usr/lib/mull-ir-frontend-18 -g -grecord-command-line calculator.c -o calculator
+```
+Testar mutantes
 ```bash
 mull-runner-18 ./calculator
 ```
