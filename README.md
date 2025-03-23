@@ -11,6 +11,7 @@ configura o repositório apt para inserir o **Mull**:
 
 ```bash
 "curl -1sLf 'https://dl.cloudsmith.io/public/mull-project/mull-stable/setup.deb.sh' | sudo -E bash"
+```
 
 Instalar a versão recente do Mull:
 
