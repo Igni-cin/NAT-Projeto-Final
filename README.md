@@ -18,6 +18,7 @@ Instalar a versão recente do Mull:
 ```bash
 $ sudo apt-get update
 $ sudo apt-get install mull-18
+```
 
 Verificar se instalação e versão:
 
@@ -31,5 +32,5 @@ Version: 0.25.0
 Commit: 319e8b0
 Date: 01 Mar 2025
 LLVM: 18.1.3
-
+```
 
