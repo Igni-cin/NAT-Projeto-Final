@@ -6,8 +6,8 @@ Este projeto tem como objetivo instruir a instalação e utilização da ferrame
 - Clang
 - **Obs.: para o funcionamento perfeito desse tutorial é essencial a utilização do SOP Ubuntu 24.04.2 LTS e as versões clang-18(18.1.3), mesmo que as intruções do repositório sejam bem claras quanto a compatibilidade das versões 20.04/22.04 do Ubuntu e llvm/Clang do 12 ao 18, acontecem muitos problemas pra compatibilizar com o repositório atual.**
 
-# Instalação
-configura o repositório apt para inserir o **Mull**:
+# Instalação da ferramenta
+Para configurar o repositório apt para inserir o **Mull** basta inserir:
 
 ```bash
 "curl -1sLf 'https://dl.cloudsmith.io/public/mull-project/mull-stable/setup.deb.sh' | sudo -E bash"
@@ -16,14 +16,17 @@ configura o repositório apt para inserir o **Mull**:
 Instalar a versão recente do Mull:
 
 ```bash
-$ sudo apt-get update
-$ sudo apt-get install mull-18
+sudo apt-get update
+sudo apt-get install mull-18
 ```
 
 Verificar se instalação e versão:
 
 ```bash
-$ mull-runner-18 --version
+mull-runner-18 --version
+```
+Resultado esperado: 
+```bash
 Mull: Practical mutation testing for C and C++
 Home: https://github.com/mull-project/mull
 Docs: https://mull.readthedocs.io
@@ -33,4 +36,15 @@ Commit: 319e8b0
 Date: 01 Mar 2025
 LLVM: 18.1.3
 ```
+Concluidos esse passos o **Mull** já está funcional
+
+# Testando funcionalidades
+Para testar as funcionalidades basta clonar esse repositório inserindo:
+
+```bash
+"curl -1sLf 'https://dl.cloudsmith.io/public/mull-project/mull-stable/setup.deb.sh' | sudo -E bash"
+```
+Clonado o repositorio, entre na pasta:
+
+
 
